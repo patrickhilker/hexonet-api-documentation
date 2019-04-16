@@ -357,6 +357,8 @@ Code | Description
 552 | Object status does not allow for operation
 554 | Object already registered
 
+NOTE: The response might include the parameter 'PENDING = 1'. This indicates that the registration has not been completed yet and that the request might still get rejected.
+
 Property | Min | Max | Definition | Type
 ---- | ---- | ---- | ---- | ----
 ACCOUNTINGDATE | 1 | 1 | The accounting date of the domain<br>Currently only returned in OTE. Will be returned in LIVE system as of 2017-07-10 | DATETIME
