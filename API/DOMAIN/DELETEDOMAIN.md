@@ -45,7 +45,6 @@ Code | Description
 Property | Min | Max | Definition | Type
 ---- | ---- | ---- | ---- | ----
 STATUS | 0 | 1 | The new status of the domain | TEXT
-PENDING | 0 | 1 | Indicates that the deletion is pending and a restore of the domain might still be possible | `1`
 
 ----
 ## Example

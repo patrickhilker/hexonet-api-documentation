@@ -365,7 +365,6 @@ FINALIZATIONDATE | 1 | 1 | The finalization date of the domain<br>Currently only
 PAIDUNTILDATE | 1 | 1 | The paid until date of the domain<br>Currently only returned in OTE. Will be returned in LIVE system as of 2017-07-10 | DATETIME
 REGISTRATIONEXPIRATIONDATE | 1 | 1 | The registration expiration date | DATETIME
 STATUS | 1 | 1 | The current registration status | TEXT
-PENDING | 0 | 1 | indicates that the registration has not been completed yet and that the request might still get rejected | `1`
 
 ----
 ## Example

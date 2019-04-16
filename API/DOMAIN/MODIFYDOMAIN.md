@@ -329,7 +329,6 @@ Code | Description
 Property | Min | Max | Definition | Type
 ---- | ---- | ---- | ---- | ----
 STATUS | 0 | 1 | The current update status in case the update has not been completed yet | TEXT
-PENDING | 0 | 1 | Indicates that the update request has not been completed yet and that it might still get rejected | `1`
 
 ----
 ## Example
